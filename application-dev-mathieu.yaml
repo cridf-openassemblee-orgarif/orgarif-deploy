@@ -1,0 +1,7 @@
+database:
+  user: mathieu
+  password:
+mail:
+  devDestination:
+pgquarrel:
+sigerUrl: https://siger.mlorber.net

@@ -1,0 +1,28 @@
+context.initializer.classes: orgarif.config.ApplicationBeans
+spring:
+  main.banner-mode: off
+  jooq.sql-dialect: Postgres
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${database.protocol}://${database.host}:${database.port}/${database.name}
+    username: ${database.user}
+    password: ${database.password}
+  freemarker.expose-request-attributes: true
+server:
+  port: 8080
+  error.whitelabel.enabled: true
+  forward-headers-strategy: none
+#---------------------------------------------------------------------------
+insertInitialData: false
+#---------------------------------------------------------------------------
+mail:
+  devLogSender:
+  devDestination:
+#---------------------------------------------------------------------------
+assets.webpackDevHost:
+#---------------------------------------------------------------------------
+mailjet.url: https://api.mailjet.com/v3.1/send
