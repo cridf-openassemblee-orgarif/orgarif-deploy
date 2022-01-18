@@ -6,7 +6,7 @@ database:
   port: ${ORGARIF_POSTGRESQL_PORT}
   name: ${ORGARIF_POSTGRESQL_DB}
   user: ${ORGARIF_POSTGRESQL_USER}
-  password: ${ORGARIF_POSTGRESQL_PASSWORD}
+  password: 
 spring:
   datasource:
     tomcat:
