@@ -2,11 +2,11 @@ app.url: https://orgarif.mlorber.net
 logging.config: classpath:logback-prod.xml
 #---------------------------------------------------------------------------
 database:
-  host: ${ORGARIF_POSTGRESQL_HOST}
-  port: ${ORGARIF_POSTGRESQL_PORT}
-  name: ${ORGARIF_POSTGRESQL_DB}
-  user: ${ORGARIF_POSTGRESQL_USER}
-  password: 
+  host: mut-p-pgr1.iledefrance.fr
+  port: 5432
+  name: orgarif
+  user: orgarif
+  password: sdv
 spring:
   datasource:
     tomcat:
