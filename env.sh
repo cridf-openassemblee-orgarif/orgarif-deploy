@@ -1,6 +1,6 @@
 export ORGARIF_ENV=prod
 export ORGARIF_OVERRIDE_SPRING_PROFILES=prod
-export ORGARIF_INIT_DATABASE=true
+export ORGARIF_INIT_DATABASE=false
 export ORGARIF_APP_URL=http://devorgarif:8300
 export ORGARIF_SIGER_URL=https://siger.mlorber.net
 export ORGARIF_POSTGRESQL_HOST=mut-p-pgr1.iledefrance.fr
@@ -10,3 +10,4 @@ export ORGARIF_POSTGRESQL_USER=orgarif
 export ORGARIF_SMTP_HOST=
 export ORGARIF_SMTP_PORT=
 export ORGARIF_SMTP_USER=
+#@
