@@ -1,4 +1,4 @@
-app.url: https://orgarif.mlorber.net
+app.url: https://orgarif.iledefrance.fr
 #---------------------------------------------------------------------------
 database:
   host: ${POSTGRESQL_ADDON_HOST}
