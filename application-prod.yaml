@@ -1,10 +1,10 @@
 app.url: https://orgarif.iledefrance.fr
 #---------------------------------------------------------------------------
 database:
-  host: ${POSTGRESQL_ADDON_HOST}
-  port: ${POSTGRESQL_ADDON_PORT}
-  name: ${POSTGRESQL_ADDON_DB}
-  user: ${POSTGRESQL_ADDON_USER}
+  host: ${ORGARIF_POSTGRESQL_HOST}
+  port: ${ORGARIF_POSTGRESQL_PORT}
+  name: ${ORGARIF_POSTGRESQL_DB}
+  user: ${ORGARIF_POSTGRESQL_USER}
   password: ${POSTGRESQL_ADDON_PASSWORD}
   protocol: jdbc:postgresql
 server.forward-headers-strategy: framework
