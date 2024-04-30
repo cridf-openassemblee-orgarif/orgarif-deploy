@@ -1,6 +1,2 @@
-database:
-  user: mlo
-  password:
-mail:
-  devDestination: mp.lorber+log-orgarif@gmail.com
 pgquarrel: /Users/mlo/git/pgquarrel/pgquarrel
+#sigerUrl: https://siger.mlorber.net
