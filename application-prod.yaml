@@ -5,7 +5,7 @@ database:
   port: ${ORGARIF_POSTGRESQL_PORT}
   name: ${ORGARIF_POSTGRESQL_DB}
   user: ${ORGARIF_POSTGRESQL_USER}
-  password: ${POSTGRESQL_ADDON_PASSWORD}
+  password: ${ORGARIF_POSTGRESQL_PASSWORD}
   protocol: jdbc:postgresql
 server.forward-headers-strategy: framework
 #---------------------------------------------------------------------------
