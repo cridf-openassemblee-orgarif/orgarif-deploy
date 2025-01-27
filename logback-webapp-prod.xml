@@ -16,9 +16,9 @@
     <if condition='"${LOG_TO_FILE}" == "true"'>
         <then>
             <appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
-                <file>/logs/orgarif.log</file>
+                <file>/var/log/orgarif.log</file>
                 <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-                    <fileNamePattern>/logs/orgarif-%d{yyyy-MM-dd}.log</fileNamePattern>
+                    <fileNamePattern>/var/log/orgarif-%d{yyyy-MM-dd}.log</fileNamePattern>
                 </rollingPolicy>
                 <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
                     <layout class="orgarif.utils.logback.LogbackPatternLayout">
