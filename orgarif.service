@@ -1,0 +1,15 @@
+[Unit]
+Description=Orgarif
+After=network.target
+
+[Service]
+User=orgarif
+Group=orgarif
+WorkingDirectory=/data/orgarif
+ExecStart=/usr/bin/java -jar orgarif.jar
+SuccessExitStatus=143
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
